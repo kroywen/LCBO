@@ -1,0 +1,89 @@
+<resources>
+
+    <string name="app_name">LCBO</string>
+    <string name="stores">Stores</string>
+    <string name="products_by_categories">Products by categories</string>
+    <string name="products_search_with_options">Products search with options</string>
+    <string name="shopping_cart">Shopping cart</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="beer">Beer</string>
+    <string name="wine">Wine</string>
+    <string name="spirits">Spirits</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="select_count">Select count</string>
+    <string name="select_phone">Select phone</string>
+    <string name="day">Day</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="store_products_count">Products (%d)</string>
+    <string name="category">Category:</string>
+    <string name="pakage">Package:</string>
+    <string name="alcohol">Alcohol:</string>
+    <string name="producer">Producer:</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="total">Total: %s</string>
+    <string name="count">Count: %d</string>
+    <string name="price">Price: %s</string>
+    <string name="no_stores">No stores</string>
+    <string name="no_products">No products</string>
+    <string name="no_items">No items</string>
+
+    <string-array name="stores_filter_params">
+        <item>has_beer_cold_room</item>
+        <item>has_bilingual_services</item>
+        <item>has_parking</item>
+        <item>has_product_consultant</item>
+        <item>has_special_occasion_permits</item>
+        <item>has_tasting_bar</item>
+        <item>has_transit_access</item>
+        <item>has_vintages_corner</item>
+        <item>has_wheelchair_accessability</item>
+    </string-array>
+
+    <string-array name="stores_filter_text">
+        <item>Has a walk-in beer fridge</item>
+        <item>Has bilingual services</item>
+        <item>Has a parking lot</item>
+        <item>Has a product consultant on staff</item>
+        <item>Can issue special occasion permits</item>
+        <item>Has a tasting bar</item>
+        <item>Is accessible by public transit</item>
+        <item>Has a Vintages area</item>
+        <item>Can be entered via wheelchair</item>
+    </string-array>
+
+    <string-array name="products_filter_params">
+        <item>is_discontinued</item>
+        <item>has_value_added_promotion</item>
+        <item>has_limited_time_offer</item>
+        <item>has_bonus_reward_miles</item>
+        <item>is_seasonal</item>
+        <item>is_vqa</item>
+        <item>is_ocb</item>
+        <item>is_kosher</item>
+    </string-array>
+
+    <string-array name="products_filter_text">
+        <item>Is marked as discontinued</item>
+        <item>Has a value added promotion</item>
+        <item>Is on sale</item>
+        <item>Has bonus air miles</item>
+        <item>Is designated as seasonal</item>
+        <item>Is designated as VQA</item>
+        <item>Is produced by a member of the Ontario Craft Brewers</item>
+        <item>Is designated as Kosher</item>
+    </string-array>
+
+</resources>

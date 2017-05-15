@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DateCellStyle" parent="android:Widget.TextView">
+        <item name="android:layout_margin">@dimen/date_margin</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/colorDateCellBackground</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_columnWeight" tools:ignore="NewApi">1</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DateHeaderStyle" parent="DateCellStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorDateHeaderBackground</item>
+    </style>
+
+    <style name="ThemeToolbar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+</resources>

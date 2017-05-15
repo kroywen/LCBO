@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/storeDates"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:layout_marginTop="10dp"
+    android:rowCount="3"
+    android:columnCount="8"
+    android:background="@android:color/black">
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sun" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mon" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tue" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wed" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thu" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fri" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sat" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/sunFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/monFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/tueFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/wedFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/thuFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/friFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/satFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/sunTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/monTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/tueTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/wedTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/thuTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/friTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/DateCellStyle"
+        android:id="@+id/satTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>

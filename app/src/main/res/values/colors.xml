@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3093BD</color>
+    <color name="colorPrimaryDark">#14769F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="lightGray">#eeeeee</color>
+    <color name="colorDateHeaderBackground">#a3daf1</color>
+    <color name="colorDateCellBackground">#7adccf</color>
+
+</resources>

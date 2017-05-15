@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.kasual.materialnumberpicker.MaterialNumberPicker
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:npMinValue="1"
+    app:npMaxValue="100"
+    app:npDefaultValue="1"
+    app:npSeparatorColor="@color/colorPrimary"
+    app:npTextColor="@android:color/black"
+    app:npTextSize="24sp" />
